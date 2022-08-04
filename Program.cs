@@ -22,7 +22,7 @@ namespace Palindrome
 
         }
 
-        // Esta função usa o método Reverse() para inverter nossa string e compará-la com a string original usando o método SequenceEqual()
+        // Esta função usa o método Reverse() para inverter a string e compará-la com a string original usando o método SequenceEqual()
         public static bool checarPalindromo(string palindromo)
         {
             return palindromo.SequenceEqual(palindromo.Reverse());
