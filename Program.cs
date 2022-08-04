@@ -5,13 +5,12 @@ namespace Palindrome
 {
      class Program
     {
-
         static void Main(string[] args)
         {
             resultado();
         }
 
-        //Função de interação com o usuário
+        // Função de interação com o usuário
         public static void resultado()
         {
             Console.WriteLine("Digite algo: ");
@@ -23,12 +22,13 @@ namespace Palindrome
 
         }
 
-        // Nesta função estamos usando o método Reverse() para inverter nossa string e compará-la com a string original usando o método SequenceEqual(). 
+        // Esta função usa o método Reverse() para inverter nossa string e compará-la com a string original usando o método SequenceEqual()
         public static bool checarPalindromo(string palindromo)
         {
             return palindromo.SequenceEqual(palindromo.Reverse());
         }
-
-
     }
 }
+
+
+
